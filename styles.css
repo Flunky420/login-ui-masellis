@@ -1,0 +1,71 @@
+    
+    *{  
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        background-color: #2176ae
+    }
+
+
+    .container {
+        display: flex;
+        height: 500px;
+        width: 445px;
+        border: 3px solid; 
+        border-radius: 27px; 
+        border-color: #2e2a2b;
+        margin: auto;
+        margin-top: 125px;
+        background-color: #eee1b3;
+        box-shadow: 3px 3px #2e2a2b;
+        min-width: 445px;
+        min-height: 500px;
+      } 
+
+    .form {
+        display: flex;
+        margin: auto;
+        Margin-top: 200px;
+        flex-direction: column;
+        }   
+    
+    .heading {
+     display: flex;
+     height: 100px;
+     width: auto;
+     background-color: #bfd7ff;
+     }     
+
+     .header{
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 35px;
+        font-family: tahoma;
+        color: #2e2a2b;
+     }
+
+     .box{
+        display: flex;
+        padding: 15px;
+        width: 300px;
+        margin: 10px;
+        border: 1px;
+        border-color: #2e2a2b;
+        outline: none;
+     }
+
+     #submit{
+        display: flex;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 25px;
+        border: 1px solid;
+        border-color: #2e2a2b
+     }
+
+     #submit :after {
+        content: "*"
+     }
