@@ -6,19 +6,20 @@
     }
     body{
         margin: 0;
-        background-color: #2176ae
+        background-color: #2176ae;
+
     }
 
 
     .container {
         display: flex;
+        margin: auto;
+        justify-content: center;
         height: 500px;
         width: 445px;
         border: 3px solid; 
         border-radius: 27px; 
         border-color: #2e2a2b;
-        margin: auto;
-        margin-top: 125px;
         background-color: #eee1b3;
         box-shadow: 3px 3px #2e2a2b;
         min-width: 445px;
@@ -27,24 +28,23 @@
 
     .form {
         display: flex;
-        margin: auto;
-        Margin-top: 200px;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
         }   
     
-    .heading {
+    .website-top {
      display: flex;
      height: 100px;
      width: auto;
      background-color: #bfd7ff;
      }     
 
-     .header{
-        position: absolute;
-        margin-left: 180px;
-        margin-top: 35px;
+     .header {
+        text-align: center;
         font-family: tahoma;
         color: #2e2a2b;
+        padding: 90px;
      }
 
      .box{
