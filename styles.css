@@ -22,9 +22,18 @@
         border-color: #2e2a2b;
         background-color: #eee1b3;
         box-shadow: 3px 3px #2e2a2b;
-        min-width: 445px;
-        min-height: 500px;
       } 
+
+    .container-wrapper{
+
+            height: calc(100vh - 100px);
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 445px;
+            min-height: 500px;
+    }
 
     .form {
         display: flex;
@@ -34,7 +43,6 @@
         }   
     
     .website-top {
-     display: flex;
      height: 100px;
      width: auto;
      background-color: #bfd7ff;
@@ -48,7 +56,6 @@
      }
 
      .box{
-        display: flex;
         padding: 15px;
         width: 300px;
         margin: 10px;
@@ -58,7 +65,6 @@
      }
 
      #submit{
-        display: flex;
         padding: 10px;
         margin: 20px;
         border-radius: 25px;
